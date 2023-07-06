@@ -6,10 +6,13 @@ Background: There have been periods where the subgraphs that feed data for the p
 Here is a list of the following Subgraphs that need to be periodically queried to ensure they are still synced.
 
 
-# https://data.subgraph.omnidex.finance/subgraphs/name/perpetuals-stats
-# https://data.subgraph.omnidex.finance/subgraphs/name/prices
-# https://subgraph.omnidex.finance/subgraphs/name/perpetuals-referrals
-# https://subgraph.omnidex.finance/subgraphs/name/perpetuals-raw
+https://data.subgraph.omnidex.finance/subgraphs/name/perpetuals-stats
+
+https://data.subgraph.omnidex.finance/subgraphs/name/prices
+
+https://subgraph.omnidex.finance/subgraphs/name/perpetuals-referrals
+
+https://subgraph.omnidex.finance/subgraphs/name/perpetuals-raw
 
 
 For the subgraphs, you will need to query the latest block they have synced to and check it against the latest block number on tEVM. If they are out sync by over 100 blocks, send an SMS message.
