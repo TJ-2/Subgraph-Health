@@ -2,6 +2,8 @@
 
 Background: There have been periods where the subgraphs that feed data for the perpetuals platforms have gone down. When this happens, the analytics page goes down and chart data is not updated on the perpetuals trading page. To overcome this issue, we need an alert bot that will send an SMS message if the subgraphs, or other OmniDex APIs go down.
 
+Time estimate 2.5 - 3.5 hours
+
 
 Here is a list of the following Subgraphs that need to be periodically queried to ensure they are still synced.
 
